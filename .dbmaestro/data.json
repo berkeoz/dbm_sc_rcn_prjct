@@ -5,7 +5,26 @@
         "ProjectId": "a08b66b1-3616-43a4-9b73-0446bc76f3e7",
         "ProjectName": "RCN_PRJCT",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "569467c3-1ece-496b-a1d2-1a9eb332cad5",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "350acd8b-e82c-4e69-8cbc-ad17c11a809e",
+                "DatabaseAliasName": "RCN_DEV",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/berkeoz/dbm_sc_rcn_db1",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -30,7 +49,30 @@
       "UserData": [
         {
           "UserName": "berkeoz",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "350acd8b-e82c-4e69-8cbc-ad17c11a809e",
+              "DatabaseAliasName": "RCN_DEV",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "WIN-U036DAHSO11\\SQLSERVER",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "RCN_DB1",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "berkeoz",
+                "Password": "OwpWlkWmltynchlAGzUVJhagkl4gbzNshplobMMz7PjSNDNYC+pPI+/W6mO5R+Lj"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null
