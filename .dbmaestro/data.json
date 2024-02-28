@@ -39,7 +39,9 @@
           },
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
+          "NumberOfDaysBuildByTaskIsRelevant": 30,
           "PreventCommitObjectWithConflict": false,
+          "SaveObjectScopeAtProjectLevel": null,
           "UseCache": null,
           "IgnoreTextualChangesBasedOnMetadata": true
         },
@@ -102,7 +104,8 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null
+      "DatabasesStaticDataObjects": null,
+      "DatabasesScopeObjects": null
     },
     {
       "GlobalData": {
@@ -143,7 +146,9 @@
           },
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
+          "NumberOfDaysBuildByTaskIsRelevant": 30,
           "PreventCommitObjectWithConflict": false,
+          "SaveObjectScopeAtProjectLevel": null,
           "UseCache": null,
           "IgnoreTextualChangesBasedOnMetadata": true
         },
@@ -204,16 +209,18 @@
       ],
       "DatabasesStaticDataObjects": [
         {
+          "StaticDataObjects": [],
           "DatabaseId": "3a95aca3-40d4-4c04-91ca-b94943f6b9f7",
-          "DatabaseAliasName": "RCN_SHARED",
-          "StaticDataObjects": []
+          "DatabaseAliasName": "RCN_SHARED"
         }
-      ]
+      ],
+      "DatabasesScopeObjects": null
     }
   ],
   "GlobalConfigurations": null,
   "RepositoryConfiguration": null,
   "GeneralConfigurations": {
-    "SupportMultiDatabasePerProject": false
+    "SupportMultiDatabasePerProject": false,
+    "SaveObjectScopeAtProjectLevel": true
   }
 }
