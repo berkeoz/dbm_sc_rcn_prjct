@@ -205,6 +205,21 @@
               "RepositoryCredentials": null
             }
           ]
+        },
+        {
+          "UserName": "bozberkeoz",
+          "DatabasesData": [
+            {
+              "DatabaseId": "3a95aca3-40d4-4c04-91ca-b94943f6b9f7",
+              "DatabaseAliasName": "RCN_SHARED",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "bozberkeoz",
+                "Password": "OwpWlkWmltynchlAGzUVJhagkl4gbzNshplobMMz7PjSNDNYC+pPI+/W6mO5R+Lj"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": [
