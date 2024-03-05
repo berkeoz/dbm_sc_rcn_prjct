@@ -39,9 +39,7 @@
           },
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "NumberOfDaysBuildByTaskIsRelevant": 30,
           "PreventCommitObjectWithConflict": false,
-          "SaveObjectScopeAtProjectLevel": null,
           "UseCache": null,
           "IgnoreTextualChangesBasedOnMetadata": true
         },
@@ -115,8 +113,7 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null,
-      "DatabasesScopeObjects": null
+      "DatabasesStaticDataObjects": null
     },
     {
       "GlobalData": {
@@ -157,9 +154,7 @@
           },
           "NumberOfRevisionsInViewHistory": 10,
           "NumberOfTagsInBuildOptions": 10,
-          "NumberOfDaysBuildByTaskIsRelevant": 30,
           "PreventCommitObjectWithConflict": false,
-          "SaveObjectScopeAtProjectLevel": null,
           "UseCache": null,
           "IgnoreTextualChangesBasedOnMetadata": true
         },
@@ -235,18 +230,72 @@
       ],
       "DatabasesStaticDataObjects": [
         {
-          "StaticDataObjects": [],
           "DatabaseId": "3a95aca3-40d4-4c04-91ca-b94943f6b9f7",
-          "DatabaseAliasName": "RCN_SHARED"
+          "DatabaseAliasName": "RCN_SHARED",
+          "StaticDataObjects": []
+        }
+      ]
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "ce608af6-b1fd-4577-adf9-15687f6fb9be",
+        "ProjectName": "RCN_PRJCT3",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {
+            "MetadataConfiguration": {
+              "QueryGrants": true,
+              "QueryComments": true,
+              "IgnoreDoubleQuotes": true,
+              "CreationScriptDelimiter": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Object, System.Private.CoreLib]], System.Private.CoreLib",
+                "Grants": "-- GRANTS --",
+                "Comment": "-- COMMENT --"
+              }
+            },
+            "ValidationConfiguration": {
+              "CompareObjectGrants": true,
+              "CompareObjectComments": true,
+              "CompareCommentsInCode": true,
+              "IgnoreWhiteSpaces": false,
+              "IgnoreCase": true,
+              "IgnoreDoubleQuotes": false,
+              "IgnoreForceKeyword": true,
+              "IgnoreCustomCharachters": false,
+              "CustomCharachtersList": ""
+            },
+            "BuildConfiguration": {
+              "DMLDefferConstraints": true,
+              "DMLTransaction": true,
+              "PreserveDataOfRestructuredTables": true,
+              "FieldNameWrapper": "\"",
+              "TempTablePrefix": "DBMTMP_"
+            }
+          },
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "PreventCommitObjectWithConflict": false,
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "berkeoz",
+          "DatabasesData": []
         }
       ],
-      "DatabasesScopeObjects": null
+      "DatabasesStaticDataObjects": null
     }
   ],
   "GlobalConfigurations": null,
   "RepositoryConfiguration": null,
   "GeneralConfigurations": {
-    "SupportMultiDatabasePerProject": false,
-    "SaveObjectScopeAtProjectLevel": true
+    "SupportMultiDatabasePerProject": false
   }
 }
