@@ -361,7 +361,26 @@
         "ProjectId": "4e547ad1-83ce-4b72-a7cc-b66f995ce8d3",
         "ProjectName": "RCN_PJCT4",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "5c9e6ecd-acf0-475c-9307-d0ff37d47989",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "661ec4fc-6b83-4992-9d0c-d08735d825cc",
+                "DatabaseAliasName": "SISB_DB1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/berkeoz/dbm_sc_sisb_db1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -384,7 +403,42 @@
       "UserData": [
         {
           "UserName": "berkeoz",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "661ec4fc-6b83-4992-9d0c-d08735d825cc",
+              "DatabaseAliasName": "SISB_DB1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "berkeoz",
+                "Password": "OwpWlkWmltynchlAGzUVJhagkl4gbzNshplobMMz7PjSNDNYC+pPI+/W6mO5R+Lj"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "661ec4fc-6b83-4992-9d0c-d08735d825cc",
+              "DatabaseAliasName": "SISB_DB1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "WIN-U036DAHSO11\\SQLSERVER",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "SISB_DB1",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
