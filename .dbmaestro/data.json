@@ -137,8 +137,21 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null,
-      "DatabasesScopeObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "StaticDataObjects": [],
+          "DatabaseId": "350acd8b-e82c-4e69-8cbc-ad17c11a809e",
+          "DatabaseAliasName": "RCN_DEV"
+        }
+      ],
+      "DatabasesScopeObjects": [
+        {
+          "ExcludeObjects": [],
+          "IncludeObjects": [],
+          "DatabaseId": "350acd8b-e82c-4e69-8cbc-ad17c11a809e",
+          "DatabaseAliasName": "RCN_DEV"
+        }
+      ]
     },
     {
       "GlobalData": {
