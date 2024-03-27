@@ -75,7 +75,7 @@
                     "host": "WIN-U036DAHSO11\\SQLSERVER",
                     "authType": "SqlAuthentication",
                     "userName": "sa",
-                    "dbName": "RCN_DB_PROD",
+                    "dbName": "RCN_DB1",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
                 }
