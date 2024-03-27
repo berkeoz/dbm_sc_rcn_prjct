@@ -116,6 +116,17 @@
                     "dbName": "RCN_DB5",
                     "Password": "do1NBD0OcmAl1jAcpH7iWg=="
                   }
+                },
+                {
+                  "BranchName": "PROD",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "WIN-U036DAHSO11\\SQLSERVER",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "RCN_DB2",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
